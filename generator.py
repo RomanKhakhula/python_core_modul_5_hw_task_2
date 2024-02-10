@@ -20,13 +20,13 @@ def sum_profit(text: str, func: Callable[[str], float]) -> float:
 # print(next(gen))
 # print(next(gen))
 # print(next(gen))
-# print(sum_profit(text, gen))
+# print(f"Загальний дохід: {sum_profit(text, gen)}")
 
 # text="Загальний дохід працівника складається з декількох частин: 1000 як основний дохід, доповнений додатковими надходженнями 2745 і 324.00 доларів."
 # gen=generator_numbers(text)
-# print(sum_profit(text, gen))
+# print(f"Загальний дохід: {sum_profit(text, gen)}")
 
 # text="Загальний дохід працівника складається з декількох частин: x як основний дохід, доповнений додатковими надходженнями x і x доларів."
 # gen=generator_numbers(text)
 # print(list(gen))
-# print(sum_profit(text, gen))
+# print(f"Загальний дохід: {sum_profit(text, gen)}")
